@@ -41,7 +41,7 @@ export default {
 ```
 ## Examples 
 
-#### default position
+#### initial position
 ```
 <v-slide initPos="left-to-right" >
 	<div>...</div>
@@ -63,7 +63,7 @@ export default {
 ## Available Options
 | Props | Type | Values | Default |
 | :---: | :---: | :---: | :---: |
-| initPos | String | left-to-right <br/> right-to-left <br/> top-to-bottom <br/> bottom-to-top | left-to-right |
+| initPos | String | left-to-right <br/> right-to-left <br/> top-to-bottom <br/> bottom-to-top |  |
 | posValue | Number | 0 - 20 | 12 |
 | duration | String | 0.5 / 1 | 0.5 |
 
