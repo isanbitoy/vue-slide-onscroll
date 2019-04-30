@@ -2,19 +2,19 @@
 a basic slide transition on scroll for vue
 
 ## Project setup
-```shell
+```
 npm install --save-dev vue-slide-onscroll
 ```
 
 ### Usage
-```define_globally
+```
 import Vue from 'vue'
 import SlideOnScroll from 'vue-slide-onscroll'
 
 Vue.component('v-slide', SlideOnScroll)
 ```
 or
-```define_locally
+```
 <template>
 	<div id="app">
 		<v-slide initPos="leftToRight" posValue="10"
@@ -63,7 +63,7 @@ export default {
 ## Available Options
 | Props | Type | Values | Default |
 | :---: | :---: | :---: | :---: |
-| initPos | String | left-to-right \\ right-to-left \\ top-to-bottom \\ bottom-to-top | left-to-right |
+| initPos | String | left-to-right <br/> right-to-left <br/> top-to-bottom <br/> bottom-to-top | left-to-right |
 | posValue | Number | 0 - 20 | 12 |
 | duration | String | 0.5 / 1 | 0.5 |
 
