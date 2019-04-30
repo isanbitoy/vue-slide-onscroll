@@ -44,32 +44,26 @@ export default {
 #### default position
 ```
 <v-slide initPos="left-to-right" >
-	....
-	....
+	<div>...</div>
 </v-slide>
 ```
 #### custom position value
 ```
 <v-slide initPos="left-to-right" posValue="15" >
-	....
-	....
+	<div>...</div>
 </v-slide>
 ```
 #### custom duration
 ```
 <v-slide initPos="left-to-right" posValue="12" duration="1" >
-	....
-	....
+	<div>...</div>
 </v-slide>
 ```
 
 ## Available Options
 | Props | Type | Values | Default |
 | :---: | :---: | :---: | :---: |
-| initPos | String | left-to-right | left-to-right |
-|		  |		   | right-to-left |               |
-|		  |		   | top-to-bottom |               |
-|		  |		   | bottom-to-top |               |
+| initPos | String | left-to-right \\ right-to-left \\ top-to-bottom \\ bottom-to-top | left-to-right |
 | posValue | Number | 0 - 20 | 12 |
 | duration | String | 0.5 / 1 | 0.5 |
 
