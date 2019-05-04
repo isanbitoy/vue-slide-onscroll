@@ -1,6 +1,6 @@
 {
   "name": "vue-slide-onscroll",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A vue single file component that initiate basic slide transition on scroll",
   "main": "./dist/vue-slide-onscroll.common.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https//github/com/isanbitoy/vue-slide-onscroll.git"
+    "url": "https://github.com/isanbitoy/vue-slide-onscroll.git"
   },
   "keywords": [
     "vue",
@@ -34,6 +34,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
