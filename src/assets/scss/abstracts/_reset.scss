@@ -1,0 +1,63 @@
+%font-property {
+    font-family: monospace;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+[v-cloak] { display: none; }
+*, *::before, *::after {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+img {
+    margin: 0 4px;
+}
+a { 
+    text-decoration: none; 
+    color: $white;
+}
+p {
+    font-size:  1em; 
+    line-height: 1.2em;
+    @extend %font-property;
+}
+h1 {
+    font-size: 2.0em;
+    @extend %font-property;
+}
+h2 {
+    font-size: 1.5em;
+    @extend %font-property;
+}
+h3 {
+    font-size: 1.0em;
+    @extend %font-property;
+}
+code {
+    display: block;
+    position: relative;
+    margin: 1rem 0;
+    overflow: auto;
+    max-width: 100%;
+    padding: 35px 10px 10px;
+    border-radius: 2px;
+    color: $white;
+    &::before {
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 25px; line-height: 25px + .2;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+}
+figure {
+    position: relative;
+    width: 21rem;
+    img {
+        @include set-dimension(100%, auto);
+        padding-top: 0.5rem; 
+        box-sizing: content-box;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-30%, -50%);
+    }
+}
